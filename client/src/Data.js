@@ -1,3 +1,3 @@
-export let apiendpoint = " https://busbooking1.onrender.com";
+export let apiendpoint = "https://busbuddy-1ooc.onrender.com";
 
 //   http://localhost:4000
