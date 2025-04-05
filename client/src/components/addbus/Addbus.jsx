@@ -64,27 +64,27 @@ const Addbus = () => {
     addbus(busdata);              // data sent to server
 
  
-    // setTname("");
-    // setOwnername("");
-    // setOwnnum("");
-    // setDname("");
-    // setDnum("");
-    // setFrom("");
-    // setTo("");
-    // setDate("");
-    // setStime("");
-    // setEtime("");
-    // setSeats("");
-    // setRate("");
-    // setBtype("");
-    // setTprice("");
-    // setRate("");
-    // setSnacks(false);
-    // setWater(false);
-    // setTv(false);
-    // setBlanket(false);
-    // setChargeport(false);
-    // setAc(false);
+    setTname("");
+    setOwnername("");
+    setOwnnum("");
+    setDname("");
+    setDnum("");
+    setFrom("");
+    setTo("");
+    setDate("");
+    setStime("");
+    setEtime("");
+    setSeats("");
+    setRate("");
+    setBtype("");
+    setTprice("");
+    setRate("");
+    setSnacks(false);
+    setWater(false);
+    setTv(false);
+    setBlanket(false);
+    setChargeport(false);
+    setAc(false);
 
   };
  
