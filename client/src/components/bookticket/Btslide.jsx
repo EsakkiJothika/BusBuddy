@@ -51,7 +51,7 @@ const Btslide = () => {
                   placeholder="From"
                   required
                   value={from}
-                  onChange={(e) => setFrom(e.target.value)}
+                  onChange={(e) => setFrom(e.target.value.toLowerCase())}
                 />
                 <div className="invalid-feedback">Please enter a departure location.</div>
               </div>
@@ -70,7 +70,7 @@ const Btslide = () => {
                   placeholder="To"
                   required
                   value={to}
-                  onChange={(e) => setTo(e.target.value)}
+                  onChange={(e) => setTo(e.target.value.toLowerCase())}
                 />
                 <div className="invalid-feedback">Please enter a destination.</div>
               </div>
