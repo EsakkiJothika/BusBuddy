@@ -244,6 +244,7 @@ const Singlebusinfo = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
                 />
+                <p style={{color:"gray",fontSize:"small"}}>Ticket will be send to this email</p>
                 <div className="invalid-feedback">
                   Please enter a valid email.
                 </div>
